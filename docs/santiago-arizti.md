@@ -3,7 +3,7 @@ What is SQL
 
 _By Santiago Arizti_.
 
-[Back to home](/)
+[Back to home](./)
 
 Introduction
 ------------
