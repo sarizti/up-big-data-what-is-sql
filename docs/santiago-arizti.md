@@ -32,7 +32,7 @@ WHERE active=1
 
 ### The INSERT Statement
 
-...
+This is for inserting into tables.
 
 ### The UPDATE Statement
 
