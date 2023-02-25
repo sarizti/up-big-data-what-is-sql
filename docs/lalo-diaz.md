@@ -1,7 +1,7 @@
 What is SQL
 ===========
 
-_By Santiago Arizti_.
+_By Eduardo Díaz_.
 
 [Back to home](./index.md)
 
