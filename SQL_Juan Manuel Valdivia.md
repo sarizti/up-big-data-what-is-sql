@@ -1,10 +1,10 @@
-#**¿SQL?** 
+**¿SQL?** 
 ##By Juan Manuel Valdivia
 
 SQL (Structured Query Language) es un lenguaje de programación diseñado para administrar y consultar bases de datos relacionales. Se utiliza para crear, modificar y manipular datos almacenados en una base de datos relacional. SQL es un lenguaje declarativo, lo que significa que los usuarios especifican lo que quieren que haga el motor de la base de datos, y este se encarga de determinar la mejor manera de hacerlo.
 ---
 
-#**¿Qué hace SQL?**
+**¿Qué hace SQL?**
 * Crear tablas y definir su estructura y relaciones
 * Insertar, actualizar y eliminar registros en una tabla
 * Recuperar datos de una o varias tablas utilizando diferentes filtros y criterios
