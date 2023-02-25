@@ -8,12 +8,12 @@ _By Santiago Arizti_.
 Introduction
 ------------
 
-Sql is...
+Sql is a language to read and write data to relational databases.
 
 Sql vs. Other Storage Solutions
 -------------------------------
 
-...
+SQL is better than all other solutions.
 
 Sql Commands
 ------------
@@ -25,12 +25,14 @@ The `SELECT` statement is for...
 Example:
 
 ```sql
-select * from users;
+SELECT id, name, email
+FROM users
+WHERE active=1
 ```
 
 ### The INSERT Statement
 
-...
+This is for inserting into tables.
 
 ### The UPDATE Statement
 
