@@ -145,3 +145,5 @@ DROP TABLE customers;
 Note that these examples assume that you already have a database set up and connected to your SQL client.
 
 
+## References
+This information was obtained using ChatGPT
