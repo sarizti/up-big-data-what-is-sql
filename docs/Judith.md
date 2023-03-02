@@ -151,4 +151,4 @@ DROP TABLE customers;
 1.explain the alter table command
 1.explain the drop table comand in sql 
 
-#hola
+#
