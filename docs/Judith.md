@@ -150,3 +150,5 @@ DROP TABLE customers;
 1.explain the delete statement in sql in 4 lines and an example
 1.explain the alter table command
 1.explain the drop table comand in sql 
+
+#hola
