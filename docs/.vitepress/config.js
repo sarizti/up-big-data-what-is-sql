@@ -12,7 +12,6 @@ export default {
         {
           text: 'Articles',
           items: [
-            {text: 'Santiago Arizti', link: '/santiago-arizti.md'},
             {text: "Santiago Arizti", link: "santiago-arizti.md"},
             {text: "Andrea Escoto", link: "andrea-escoto.md"},
             {text: "Andrea Pérez", link: "andrea-perezSQL.md"},
@@ -22,7 +21,7 @@ export default {
             {text: "Judith Macias", link: "Judith.md"},
             {text: "Lalo Díaz", link: "lalo-diaz.md"},
             {text: "Natalia Villalpando", link: "nataliv-sql.md"},
-            {text: "Juan Manuel VAldivia", link: "SQL_Juan%20Manuel%20Valdivia.md"},
+            {text: "Juan Manuel Valdivia", link: "SQL_Juan%20Manuel%20Valdivia.md"},
           ]
         }
       ]
