@@ -12,7 +12,17 @@ export default {
         {
           text: 'Articles',
           items: [
-            { text: 'Santiago Arizti', link: '/santiago-arizti.md' },
+            {text: 'Santiago Arizti', link: '/santiago-arizti.md'},
+            {text: "Santiago Arizti", link: "santiago-arizti.md"},
+            {text: "Andrea Escoto", link: "andrea-escoto.md"},
+            {text: "Andrea Pérez", link: "andrea-perezSQL.md"},
+            {text: "Jorge Arroyo", link: "Jarroyo.md"},
+            {text: "Javier Orozco", link: "javi-orozco.md"},
+            {text: "José Carlos Ramírez", link: "jose-carlos-ramirez.md"},
+            {text: "Judith Macias", link: "Judith.md"},
+            {text: "Lalo Díaz", link: "lalo-diaz.md"},
+            {text: "Natalia Villalpando", link: "nataliv-sql.md"},
+            {text: "Juan Manuel VAldivia", link: "SQL_Juan%20Manuel%20Valdivia.md"},
           ]
         }
       ]
