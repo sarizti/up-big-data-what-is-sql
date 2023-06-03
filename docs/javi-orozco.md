@@ -1,60 +1,65 @@
 What is SQL
 ===========
 
+SQL (Structured Query Language) is a programming language used to manage and manipulate relational databases. With SQL, users can create, modify, and query databases, as well as perform various operations such as creating tables, inserting and deleting data, and retrieving information.
 
-SQL (Structured Query Language) es un lenguaje de programación utilizado para administrar y manipular bases de datos relacionales. Con SQL, los usuarios pueden crear, modificar y consultar bases de datos, así como realizar diversas operaciones como la creación de tablas, la inserción y eliminación de datos, y la recuperación de información.
+SQL is a declarative language, which means that users describe what they want to do rather than how to do it. For example, instead of specifying how to retrieve data from a database, the user simply describes the data they want to retrieve and the database system takes care of the task.
 
-SQL es un lenguaje declarativo, lo que significa que los usuarios describen lo que quieren hacer en lugar de cómo hacerlo. Por ejemplo, en lugar de especificar cómo recuperar datos de una base de datos, el usuario simplemente describe los datos que quiere recuperar y el sistema de base de datos se encarga de la tarea.
-
-SQL es uno de los lenguajes más utilizados en la administración de bases de datos y es compatible con una amplia variedad de sistemas de gestión de bases de datos (DBMS), incluyendo MySQL, Oracle, Microsoft SQL Server y PostgreSQL, entre otros.
-
+SQL is one of the most widely used languages in database administration and is supported by a wide variety of database management systems (DBMS), including MySQL, Oracle, Microsoft SQL Server, and PostgreSQL, among others.
 
 Sql vs. Other Storage Solutions
 -------------------------------
-Existen varias soluciones de almacenamiento de datos diferentes a SQL. Algunas de las alternativas más populares son:
 
-NoSQL: NoSQL (Not Only SQL) es una categoría de soluciones de almacenamiento de datos que se caracteriza por no utilizar el lenguaje SQL para acceder a los datos. En su lugar, utilizan otros modelos de datos, como documentos, grafos o clave-valor. Algunas de las bases de datos NoSQL más conocidas son MongoDB, Cassandra y Couchbase.
-Almacenamiento en la nube: El almacenamiento en la nube se refiere a la posibilidad de almacenar y acceder a los datos en servidores remotos a través de internet. Los servicios de almacenamiento en la nube más conocidos son Amazon S3, Google Cloud Storage y Microsoft Azure.
-Almacenamiento en memoria: Las soluciones de almacenamiento en memoria, como Redis o Memcached, se caracterizan por almacenar los datos en la memoria RAM del servidor, lo que permite una lectura y escritura más rápidas de los datos.
-Almacenamiento en archivos: Los sistemas de almacenamiento en archivos, como Hadoop y Apache Spark, se utilizan principalmente para el análisis de grandes volúmenes de datos y se caracterizan por su capacidad para procesar datos en paralelo.
-Almacenamiento en tiempo real: Los sistemas de almacenamiento en tiempo real, como Apache Kafka, se utilizan para almacenar y procesar grandes volúmenes de datos en tiempo real, lo que los hace ideales para aplicaciones que requieren procesamiento de eventos en tiempo real.
+There are several different data storage solutions to SQL. Some of the most popular alternatives are:
+
+NoSQL: NoSQL (Not Only SQL) is a category of data storage solutions characterized by not using the SQL language to access data. Instead, they use other data models, such as documents, graphs, or key-values. Some of the most popular NoSQL databases are MongoDB, Cassandra, and Couchbase.
+Cloud storage: Cloud storage refers to the ability to store and access data on remote servers over the internet. The most popular cloud storage services are Amazon S3, Google Cloud Storage, and Microsoft Azure.
+In-memory storage: In-memory storage solutions, such as Redis or Memcached, typically store data in the server's RAM, allowing for faster data reads and writes.
+File storage: File storage systems, such as Hadoop and Apache Spark, are primarily used for analysis of large volumes of data and are characterized by their ability to process data in parallel.
+Real-time storage: Real-time storage systems, such as Apache Kafka, are used to store and process large volumes of data in real time, making them ideal for applications that require real-time event processing.
 ...
 
 Sql Commands
 ------------
 
-Hay muchos comandos de SQL, pero algunos de los más comunes son:
+There are many SQL commands, but some of the most common are:
 
-SELECT: se utiliza para recuperar datos de una o varias tablas de una base de datos.
-INSERT: se utiliza para agregar nuevos registros a una tabla.
-UPDATE: se utiliza para actualizar los valores de una o varias columnas de una tabla existente.
-DELETE: se utiliza para eliminar uno o varios registros de una tabla.
-CREATE: se utiliza para crear una nueva tabla, vista o procedimiento almacenado en una base de datos.
-ALTER: se utiliza para modificar la estructura de una tabla existente, agregar o eliminar columnas o modificar restricciones.
-DROP: se utiliza para eliminar una tabla, vista o procedimiento almacenado de una base de datos.
-JOIN: se utiliza para combinar datos de dos o más tablas relacionadas en una consulta.
-GROUP BY: se utiliza para agrupar los resultados de una consulta en función de una o varias columnas.
-ORDER BY: se utiliza para ordenar los resultados de una consulta en función de una o varias columnas.
-Estos son solo algunos ejemplos de los comandos de SQL más comunes. Hay muchos otros comandos y operadores disponibles en SQL que permiten a los usuarios realizar una variedad de tareas diferentes en la gestión de bases de datos.
+SELECT: used to retrieve data from one or more tables in a database.
+INSERT - Used to add new records to a table.
+UPDATE – Used to update the values of one or more columns in an existing table.
+DELETE: used to delete one or more records from a table.
+CREATE – Used to create a new table, view, or stored procedure in a database.
+ALTER - Used to modify the structure of an existing table, add or remove columns, or modify constraints.
+DROP – Used to drop a table, view, or stored procedure from a database.
+JOIN – Used to combine data from two or more related tables in one query.
+GROUP BY – Used to group the results of a query based on one or more columns.
+ORDER BY: Used to order the results of a query based on one or more columns.
+These are just a few examples of the most common SQL commands. There are many other commands and operators available in SQL that allow users to perform a variety of different database management tasks.
 
 
 
 Sql Clauses
 -----------
-Las cláusulas SQL son comandos adicionales que se utilizan junto con los comandos principales (como SELECT, INSERT, UPDATE o DELETE) para filtrar, ordenar o agrupar datos en una consulta. Algunas de las cláusulas SQL más comunes son:
+SQL clauses are additional commands used in conjunction with main commands (such as SELECT, INSERT, UPDATE, or DELETE) to filter, sort, or group data in a query. Some of the most common SQL clauses are:
 
-WHERE: se utiliza con SELECT, UPDATE o DELETE para filtrar registros en función de una o varias condiciones.
-ORDER BY: se utiliza con SELECT para ordenar los resultados de una consulta en función de una o varias columnas.
-GROUP BY: se utiliza con SELECT para agrupar los resultados de una consulta en función de una o varias columnas.
-HAVING: se utiliza con GROUP BY para filtrar los grupos de registros devueltos en función de una o varias condiciones.
-JOIN: se utiliza con SELECT para combinar datos de dos o más tablas relacionadas en una consulta.
-DISTINCT: se utiliza con SELECT para eliminar los duplicados de los resultados de una consulta.
-LIMIT: se utiliza con SELECT para limitar el número de registros devueltos por una consulta.
-OFFSET: se utiliza con LIMIT para especificar el número de registros que se deben omitir al comienzo de una consulta.
-IN: se utiliza con SELECT, UPDATE o DELETE para filtrar registros en función de un conjunto de valores.
-BETWEEN: se utiliza con SELECT, UPDATE o DELETE para filtrar registros en función de un rango de valores.
-Estas son solo algunas de las cláusulas SQL más comunes. Hay muchas otras cláusulas disponibles que permiten a los usuarios realizar consultas más complejas y específicas en la gestión de bases de datos.
+WHERE – Used with SELECT, UPDATE, or DELETE to filter records based on one or more conditions.
+ORDER BY - Used with SELECT to order the results of a query based on one or more columns.
+GROUP BY - Used with SELECT to group the results of a query based on one or more columns.
+HAVING – Used with GROUP BY to filter the groups of records returned based on one or more conditions.
+JOIN – Used with SELECT to combine data from two or more related tables in one query.
+DISTINCT - Used with SELECT to remove duplicates from the results of a query.
+LIMIT - Used with SELECT to limit the number of records returned by a query.
+OFFSET - Used with LIMIT to specify the number of records to skip at the beginning of a query.
+IN – Used with SELECT, UPDATE, or DELETE to filter records based on a set of values.
+BETWEEN – Used with SELECT, UPDATE, or DELETE to filter records based on a range of values.
+These are just some of the more common SQL clauses. There are many other clauses available that allow users to perform more complex and specific queries in database management.
 
 Other Sql Commands
 ------------------
-
+SELECT - extracts data from a database.
+UPDATE - updates data in a database.
+DELETE - deletes data from a database.
+INSERT INTO - inserts new data into a database.
+CREATE DATABASE - creates a new database.
+ALTER DATABASE - modifies a database.
+CREATE TABLE - creates a new table.
