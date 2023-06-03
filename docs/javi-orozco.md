@@ -10,7 +10,7 @@ SQL is one of the most widely used languages in database administration and is s
 Sql vs. Other Storage Solutions
 -------------------------------
 
-There are several different data storage solutions to SQL. Some of the most popular alternatives are:
+There are several data storage solutions to SQL. Some of the most popular alternatives are:
 
 NoSQL: NoSQL (Not Only SQL) is a category of data storage solutions characterized by not using the SQL language to access data. Instead, they use other data models, such as documents, graphs, or key-values. Some of the most popular NoSQL databases are MongoDB, Cassandra, and Couchbase.
 Cloud storage: Cloud storage refers to the ability to store and access data on remote servers over the internet. The most popular cloud storage services are Amazon S3, Google Cloud Storage, and Microsoft Azure.
